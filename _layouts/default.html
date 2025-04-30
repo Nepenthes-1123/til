@@ -41,18 +41,6 @@
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
             {{ content }}
-
-            {% if site.contents %}
-            <ul>
-                {% assign doclist = site.static_files | sort: 'url' %}
-                {% for doc in doclist %}
-                <li href="{{site.baseurl}}{{doc.url}}">{{ doc.name }}</li>
-                {% endfor %}
-            </ul>
-
-            <p>検証</p>
-            {% endif %}
-
         </section>
     </div>
 
