@@ -6,12 +6,12 @@
 
 - プラットフォーム
   - Windows
-  - Linux
+  - [Linux](https://nepenthes-1123.github.io/til/linux/)
 - 言語
-  - python
-  - c++
+  - [python](https://nepenthes-1123.github.io/til/python/)
+  - [c++](https://nepenthes-1123.github.io/til/cpp/)
 - ツール
-  - VScode
-  - Docker
-  - git
+  - [VScode](https://nepenthes-1123.github.io/til/vscode/)
+  - [Docker](https://nepenthes-1123.github.io/til/docker/)
+  - [git](https://nepenthes-1123.github.io/til/git/)
 - アウトプット
