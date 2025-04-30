@@ -1,3 +1,6 @@
-layout: default
+layout: add-header-link
+top_url: https://nepenthes-1123.github.io/til/
 title: nepenthes1123
 theme: jekyll-theme-slate
+github:
+  is_project_page: false
