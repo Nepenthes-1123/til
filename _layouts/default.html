@@ -41,6 +41,13 @@
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
             {{ content }}
+
+            {% if site.contents %}
+            {% assign doclist = site.pages | sort: 'url' %}
+            {% for doc in doclist %}
+            - [{{ doc.name }}]({{ site.baseurl }}{{ doc.url }})
+            {% endfor %}
+            {% endif %}
         </section>
     </div>
 
