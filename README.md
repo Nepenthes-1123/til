@@ -6,12 +6,16 @@
 
 - プラットフォーム
   - Windows
-  - [Linux](https://nepenthes-1123.github.io/til/linux/)
+  - [Linux](./linux/)
 - 言語
-  - [python](https://nepenthes-1123.github.io/til/python/)
-  - [c++](https://nepenthes-1123.github.io/til/cpp/)
+  - [python](./python/)
+  - [c++](./cpp/)
+- フレームワーク・ライブラリ
+  - [OpenGL](./opengl/)
 - ツール
-  - [VScode](https://nepenthes-1123.github.io/til/vscode/)
-  - [Docker](https://nepenthes-1123.github.io/til/docker/)
-  - [git](https://nepenthes-1123.github.io/til/git/)
+  - [VScode](./vscode/)
+  - [Docker](./docker/)
+  - [git](./git/)
 - アウトプット
+
+### [気になった用語メモ](./word_interest)
