@@ -1,8 +1,6 @@
 # OpenGL開発環境 in Docker in WSL2を作ってみる
 
-どうやら一般的ではないらしいので参考記事[^1][^2]を見ながら何をしてるかまとめる。
-[^1]: [【2022年版】Docker+GLFWでOpenGLプログラミング環境構築](https://qiita.com/asuka1975/items/5384ff4c20accb87cdca)
-[^2]: [WSLg を使って Docker 上で GUI アプリを動かす（GPUサポート付き）](https://blog.mohyo.net/2022/02/11591/)
+どうやら一般的ではないらしいので[参考記事](#参考文献)を見ながら何をしてるかまとめる。
 
 ## 環境
 
@@ -12,7 +10,7 @@
 
 ## Dockerfile
 
-参考元[^1]で用意されていたもの
+[参考元](#1)で用意されていたもの
 
 ```dockerfile
 FROM python:3.10-slim-buster
@@ -41,7 +39,7 @@ WORKDIR /opt/app
 ENTRYPOINT ["/bin/bash"]
 ```
 
-参考元[^2]で用意されていたもの
+[参考元](#2)で用意されていたもの
 
 ```dockerfile
 FROM ubuntu:20.04
@@ -87,3 +85,13 @@ docker compose exec docker-for-wslg /bin/bash
 
 - `-d`
   - バックグラウンドでコンテナを起動する
+
+## 参考文献
+
+### 1
+
+[【2022年版】Docker+GLFWでOpenGLプログラミング環境構築](https://qiita.com/asuka1975/items/5384ff4c20accb87cdca)
+
+### 2
+
+[WSLg を使って Docker 上で GUI アプリを動かす（GPUサポート付き）](https://blog.mohyo.net/2022/02/11591/)
